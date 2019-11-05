@@ -1,0 +1,15 @@
+[Unit]
+Description=mqtt-tempo Daemon
+After=network.target
+
+[Service]
+ExecStart=/opt/mqtt-tempo/bin/mqtt-tempo
+Environment="TEMPO_URL={{ tempo_url }}"
+Environment="TEMPO_MQTT_URL={{ tempo_mqtt_url }}"
+Environment="TEMPO_MQTT_LOGIN={{ tempo_mqtt_login }}"
+Environment="TEMPO_MQTT_PASSWORD={{ tempo_mqtt_password }}"
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
