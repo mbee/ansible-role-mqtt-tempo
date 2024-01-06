@@ -1,6 +1,6 @@
 [Unit]
 Description=mqtt-tempo Daemon
-After=network.target
+After=mosquitto.service
 
 [Service]
 ExecStart=/opt/mqtt-tempo/bin/mqtt-tempo

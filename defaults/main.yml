@@ -1,9 +1,9 @@
 # %%s because systemctl interpreting %s
-tempo_url: https://particulier.edf.fr/bin/edf_rc/servlets/ejptemponew?Date_a_remonter=%%s&TypeAlerte=TEMPO
+tempo_url: https://particulier.edf.fr/services/rest/referentiel/searchTempoStore?dateRelevant=%%s&TypeAlerte=TEMPO
 
-tempo_mqtt_x86_64_url: https://github.com/mbee/go-mqtt-tempo/raw/master/release/1.1.1/linux/amd64/mqtt-tempo
-tempo_mqtt_armv7l_url: https://github.com/mbee/go-mqtt-tempo/raw/master/release/1.1.1/linux/arm/mqtt-tempo
-mqtt_tempo_aarch64_url: https://github.com/mbee/go-mqtt-tempo/raw/master/release/1.1.1/linux/aarch64/mqtt-tempo
+tempo_mqtt_x86_64_url: https://github.com/mbee/go-mqtt-tempo/raw/master/release/1.1.2/linux/amd64/mqtt-tempo
+tempo_mqtt_armv7l_url: https://github.com/mbee/go-mqtt-tempo/raw/master/release/1.1.2/linux/arm/mqtt-tempo
+tempo_mqtt_aarch64_url: https://github.com/mbee/go-mqtt-tempo/raw/master/release/1.1.2/linux/aarch64/mqtt-tempo
 tempo_mqtt_url: tcp://localhost:1883
 tempo_mqtt_login:
 tempo_mqtt_password:
